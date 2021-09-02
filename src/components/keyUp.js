@@ -67,7 +67,7 @@ export default function KeyUpFunction() {
             console.log(e.key);
         })
     }, [control]); 
-
+ 
 
     return (
         <div className="clickStart" onClick={go}>

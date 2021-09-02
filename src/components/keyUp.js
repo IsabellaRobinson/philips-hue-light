@@ -66,7 +66,7 @@ export default function KeyUpFunction() {
 
             console.log(e.key);
         })
-    }, [control]);
+    }, [control]); 
 
 
     return (

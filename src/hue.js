@@ -1,5 +1,4 @@
 export default function LightsControle(lightOn){
-
     const axios = require ('axios');
 
 const controlLight = async(lightId, on, hue, sat, bri) => {

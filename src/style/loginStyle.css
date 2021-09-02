@@ -1,0 +1,37 @@
+.Login__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align-last: center;
+
+}
+
+.Login__header {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: xxx-large;
+    margin: auto;
+    text-align: center;
+    padding-top: 12vh;
+    width: 100%;
+    height: 20vh;
+
+}
+
+.Login__form {
+    background-image: linear-gradient(rgb(199, 41, 41), rgba(185, 88, 88, 0.349));
+    margin: 3vh;
+    border: black 2px solid;
+    height: 50vh;
+    margin-top: 4vh;
+}
+
+.Login__inputGroup {
+    padding-top: 2vh;
+    margin: 3vh;
+}
+
+.Login__mail, 
+.Login__pass {
+height: 6vh;
+width: 25vw;
+}

@@ -10,12 +10,12 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// if("serviceWorker" in navigator){
-//   window.addEventListener("load", function(){
-//       navigator.serviceWorker.register("/sw.js").then(function(registration) {
-//           console.log("SW registered successfully");
-//       }, function(error){
-//           console.log("Something went wrong", error);
-//       });
-//   });
-// }
+if("serviceWorker" in navigator){
+  window.addEventListener("load", function(){
+      navigator.serviceWorker.register("/sw.js").then(function(registration) {
+          console.log("SW registered successfully");
+      }, function(error){
+          console.log("Something went wrong", error);
+      });
+  });
+}
